@@ -1,0 +1,12 @@
+---
+layout: normpage.njk
+title: Archive
+---
+<p>Links to each entry.<p>
+<ul>
+{%- for post in collections.post -%}
+  <li><a href="{{ post.url }}">{{ post.data.title }}</a> ({{ post.date.toLocaleDateString('en-us', { weekday:"short", year:"numeric", month:"short", day:"numeric"}) 
+ }})</li>
+{%- endfor -%}
+</ul>
+<p style="color:#ced2d6">An index of my personal campaign notes can be found <a href="/note-archive/" style="color:#ced2d6">here</a>.<p>

@@ -1,0 +1,25 @@
+---
+markdown-it: true
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/assets/styles.css">
+        <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg">
+        <link rel="icon" type="image/png" href="/assets/favicon/favicon.png">
+        <title>DREGS/{{ title }}</title>
+    </head>
+    <body>
+        {% include 'header.njk' %}
+        <h1>
+            <a href="{{ url }}">{{ title }}</a>
+        </h1>
+        <p>({{ page.date.toLocaleDateString('en-us', { weekday:"short", year:"numeric", month:"short", day:"numeric"}) }})</p>
+        <article>
+            {{ content | safe }}
+        </article>
+        <br><hr><br>
+    </body>
+</html>
