@@ -69,3 +69,13 @@ img {
     border: 2px;
     border-style: dotted;
 }
+
+.dice {
+    padding: 8px;
+    margin: auto;
+    max-width: 85%;
+    border: 2px;
+    border-style: dashed;
+    stroke-dashoffset: 3;
+    font-family: monospace;
+}

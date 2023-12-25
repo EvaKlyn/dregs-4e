@@ -71,7 +71,7 @@ Round 1
 - Grunt E backs up, grazing Izzie for 4 damage.
 - Grunt D takes a shot at Korin, grazing him for 5 damage, then dashes to group with the other grunts.
 - Lieutenant A fires his pistol at Korin, getting a solid hit for 9 damage before ducking into cover.
-- The Leader dashes over to Izzie, taking a swing with his axe. Izzie redirects the blow and taunting him.
+- The Leader dashes over to Izzie, taking a swing with his axe. Izzie redirects the blow and taunts him.
 - Lieutenant B charges Korin with his makeshift club, but Korin dodges.
 - **Izzie hacks into Grunt C's side, rendering him useless. She takes another swing at the Leader, but he manages to block it with the handle of his axe.**
 - **Korin sets another Shroud on the Leader before bursting into black flames, placing another Shroud on the Leader in the process. He then slashes Lieutenant B, grazing for 5 damage. He finally shifts over to flank the Leader with Izzie.**
@@ -107,6 +107,7 @@ Round 4
 - **Lieutenant B curses, walking over and firing a shot into Izzie's head, killing her.**
 - **Grunt A does the honors for Korin.**
 - Kilo scurries through the vent, trying to keep his mind from the shock.
+
 </div>
 
 **6:25 PM** - Kilo ran, feeling the world fall away beneath his feet. He slipped into an abandoned house, the light of the setting sun casting beams of orange through the shattered windows. He found a secluded corner, drawing his knees up to his chest. This wasn't real, was it?
