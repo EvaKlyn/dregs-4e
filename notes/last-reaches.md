@@ -10,7 +10,7 @@ title: The Last Reaches (Spoilers)
 
 # World Level
 
-**Primary Thematic Problems**: Despair, Disconnection  
+**Primary Thematic Problems**: Rebuilding, Disconnection  
 
 Earth was been driven into the ground, and the solution offered by corporations was the Net. The Net was a network of full-dive VR clients that hijacked all input and output from the brain, and was operated jointly by 5 megacorporations.
 
