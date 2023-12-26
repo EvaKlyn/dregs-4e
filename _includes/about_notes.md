@@ -1,0 +1,1 @@
+These are my own notes converted from markdown, prettied up for sharing; they might help contextualize stuff in the entries. Notes listed before the danger zone should be fine for reading even if you're a player in my games.

@@ -1,0 +1,28 @@
+---
+layout: normpage.njk
+title: Notes
+---
+<p>
+  {% include "about_notes.md" %}
+<p>
+<ul>
+{%- for post in collections.note -%}
+  <li><a href="{{ post.url }}">{{ post.data.title }}</a> ({{ post.date.toLocaleDateString('en-us', { weekday:"short", year:"numeric", month:"short", day:"numeric"}) 
+ }})</li>
+{%- endfor -%}
+</ul>
+
+<h3>Danger Zone</h3>
+<p>
+  If you think you might play in a 4E game I run, you should
+  avoid reading these very strongly.
+</p>
+<details>
+  <summary>Forbidden Knowledge</summary>
+  <ul>
+  {%- for post in collections.spoiler -%}
+    <li><a href="{{ post.url }}">{{ post.data.title }}</a> ({{ post.date.toLocaleDateString('en-us', { weekday:"short", year:"numeric", month:"short", day:"numeric"}) 
+  }})</li>
+  {%- endfor -%}
+  </ul>
+</details>

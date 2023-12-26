@@ -43,8 +43,20 @@ a:hover {
 }
 
 img {
-    width: 100%;
     height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 100%;
+}
+
+.logo {
+    all: initial;
+    width:50px;
+    height:50px;
+    margin-right:16px;
+    margin-bottom:-7px;
+    max-width: 100;
 }
 
 .caption {
@@ -78,4 +90,29 @@ img {
     border-style: dashed;
     stroke-dashoffset: 3;
     font-family: monospace;
+}
+
+summary {
+    text-decoration: underline;
+	cursor: pointer;
+}
+
+summary:hover {
+	outline: none;
+	cursor: pointer;
+    font-style: italic;
+}
+
+details > summary .details-marker:before {
+	content: ">";
+}
+
+details[open] > summary .details-marker:before {
+	content: ">";
+}
+
+details > *:not(summary) {
+	padding-left: 1.25em;
+    background-color: #c5cacc;
+    font-size: small;
 }
